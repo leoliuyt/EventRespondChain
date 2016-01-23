@@ -13,6 +13,9 @@
 @end
 
 @implementation ViewController
+- (IBAction)clickAction:(id)sender {
+    NSLog(@"click");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
